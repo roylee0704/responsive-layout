@@ -2,6 +2,7 @@ import React from 'react'
 import Chat from '../components/colorverse-flex/Chat'
 import Header from '../components/colorverse-flex/Header'
 import Main from '../components/colorverse-flex/Main'
+import Roll from '../components/colorverse-flex/Roll'
 import Side from '../components/colorverse-flex/Side'
 
 const ColorverseFlex = () => {
@@ -13,7 +14,7 @@ const ColorverseFlex = () => {
       {/* max-h-[0] */}
       <div className="mx-auto mt-[3.2rem] flex border-4 border-black md:space-x-5 lg:max-w-5xl">
         <Side />
-        <Chat />
+        <Roll />
       </div>
     </div>
   )
