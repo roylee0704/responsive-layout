@@ -13,7 +13,7 @@ const ColorverseFlex = () => {
       {/* max-h-[0] */}
       <div className="mx-auto mt-[3.2rem] flex border-4 border-black md:space-x-5 lg:max-w-5xl">
         <Side />
-        <Main />
+        <Chat />
       </div>
     </div>
   )
