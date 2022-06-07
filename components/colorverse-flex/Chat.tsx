@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Main = () => {
+const Chat = () => {
   // the lesson here is to use relative to control and contain the absolute div.
 
   return (
@@ -55,4 +55,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Chat
